@@ -1,4 +1,4 @@
-This is the source for my personal website https://danielturcich.com/ built with Angular 4 and Material 2
+This is the source for my personal website https://danielturcich.com/ built with Angular 5 and Material 2
 
 Website is being hosted with Firebase due to ease of use, NPM command line support, and reliablity/ speed. Domain obtained through Namecheap.com.
 
