@@ -1,0 +1,73 @@
+.app-sidenav {
+	width: 230px;
+	padding-bottom: 1px;
+}
+
+.app-toolbar-filler {
+	flex: 1 1 auto;
+}
+
+.app-content mat-card {
+	margin: 20px;
+	cursor: default;
+}
+
+.sidenav-navigation-button {
+	width: 229px;
+	height: 45px;
+	margin-bottom: 2px;
+	border-radius: 1px;
+}
+
+/deep/.app-dark-theme .mat-drawer-backdrop.mat-drawer-shown{
+	background-color: rgba(0, 0, 0, 0.2)
+}
+
+.close-sidenav {
+	cursor: pointer;
+}
+
+mat-icon:hover {
+	color: rgb(255, 202, 40)
+}
+
+.about-card-title {
+	padding-bottom: 9px;
+}
+
+.link-text {
+	color: rgb(255, 202, 40);
+	text-decoration: none;
+}
+
+.text-header {
+	font-weight: bold;
+}
+
+.text-body {
+	padding-top: 15px;
+	padding-left: 15px;
+	padding-bottom: 0px;
+	padding-right: 0px;
+}
+
+.text-body-no-sections {
+	padding-left: 15px;
+	padding-right: 0px;
+}
+
+.navbar-text {
+	cursor: default;
+}
+
+.main-toolbar {
+	padding-left: 1px;
+	top: 0px;
+	position: sticky; 
+    position: -webkit-sticky;
+	z-index: 50;
+}
+
+.copy-email-button {
+	margin-top: 10px
+}

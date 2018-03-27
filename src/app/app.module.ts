@@ -1,10 +1,12 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
-import { AppRoutingModule } from './app-routing.module';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
+import { OverlayContainer } from '@angular/cdk/overlay';
+import { MaterialModule } from './material.module';
 
 import { AppComponent } from './app.component';
-
 
 @NgModule({
   declarations: [
@@ -12,9 +14,16 @@ import { AppComponent } from './app.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+	BrowserAnimationsModule,
+	MaterialModule
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule 
+{
+    constructor(overlayContainer: OverlayContainer) 
+    {
+      overlayContainer.getContainerElement().classList.add('app-dark-theme');
+    }
+}
