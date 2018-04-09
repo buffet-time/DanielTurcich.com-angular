@@ -25,7 +25,7 @@ export class AppComponent
 
 	nagivateToResume()
 	{
-		window.open("https://drive.google.com/file/d/1QS_WwXNiwyzgGGRRsq7AeG9OlY0OY_2s/view?usp=sharing");
+		window.open("https://drive.google.com/file/d/1YB41Csl-SACbAjzXuq9AQYKI-zYJc2Ti/view?usp=sharing");
 	}
 
 	navigateToBandcamp()
