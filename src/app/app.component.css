@@ -13,10 +13,12 @@
 }
 
 .sidenav-navigation-button {
-	width: 229px;
+	width: 228px;
 	height: 45px;
-	margin-bottom: 2px;
+	margin-top: 3px;
+	margin-left: 1px;
 	border-radius: 1px;
+	font-size: 18px;
 }
 
 /deep/.app-dark-theme .mat-drawer-backdrop.mat-drawer-shown{
@@ -28,7 +30,7 @@
 }
 
 mat-icon:hover {
-	color: rgb(255, 202, 40)
+	color: #575757;
 }
 
 .about-card-title {
@@ -36,7 +38,7 @@ mat-icon:hover {
 }
 
 .link-text {
-	color: rgb(255, 202, 40);
+	color: #40b94a;
 	text-decoration: none;
 }
 

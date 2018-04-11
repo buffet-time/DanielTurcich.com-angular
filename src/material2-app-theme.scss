@@ -3,8 +3,8 @@
 @include mat-core();
 
 $primary: mat-palette($mat-green, 700);
-$accent:  mat-palette($mat-amber, 400);
+$accent:  mat-palette($mat-green, 600);
 $warn:    mat-palette($mat-deep-orange);
-$dark-theme:   mat-dark-theme($primary, $accent, $warn);
+$dark-theme: mat-dark-theme($primary, $accent, $warn);
 
 @include angular-material-theme($dark-theme);
