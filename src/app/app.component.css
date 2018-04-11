@@ -12,6 +12,10 @@
 	cursor: default;
 }
 
+.button-icon {
+	float: left;
+}
+
 .sidenav-navigation-button {
 	width: 228px;
 	height: 45px;
@@ -19,6 +23,7 @@
 	margin-left: 1px;
 	border-radius: 1px;
 	font-size: 18px;
+    padding-left: 8px;
 }
 
 /deep/.app-dark-theme .mat-drawer-backdrop.mat-drawer-shown{
