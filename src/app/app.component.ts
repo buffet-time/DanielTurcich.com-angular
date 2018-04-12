@@ -37,16 +37,4 @@ export class AppComponent
 	{
 		window.open("https://play.google.com/store/music/artist/Buffet_Time?id=A5gl7kvih2r3mxniaby7mddfwgq");
 	}
-
-	copyEmail()
-	{
-		var copyTextareaBtn = document.querySelector('.copy-email-button');
-		
-		copyTextareaBtn.addEventListener('click', function(event) 
-		{
-			var copyTextarea = document.querySelector('.email-input-field') as HTMLInputElement;
-			copyTextarea.select();
-			document.execCommand('copy');
-		});
-	}
 }
