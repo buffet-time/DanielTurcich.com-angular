@@ -1,4 +1,4 @@
 # DanielTurcich.com
-This is the source for my website built with Angular 5 and Material 2
+This is the source for my website built with Angular 6 with Angular Material
 
-Website is being hosted with Firebase due to ease of use, NPM command line support, and reliablity/ speed. Domain obtained through Namecheap.com.
+Website is being hosted with Firebase due to reliablity and speed. Domain obtained through Namecheap.com.
