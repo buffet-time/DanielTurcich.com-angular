@@ -1,0 +1,9 @@
+{
+  "name": "DanielTurcich.com",
+  "short_name": "DanielT.com",
+  "description": "Personal website for Daniel James Turcich, a Software Engineer.",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#303030",
+  "theme_color": "#388e3c"
+}
