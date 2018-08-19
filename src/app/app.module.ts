@@ -5,7 +5,7 @@ import 'hammerjs';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { OverlayContainer } from '@angular/cdk/overlay';
-import { MaterialModule } from './material.module';
+import { MatSidenavModule, MatToolbarModule, MatButtonModule, MatIconModule, MatCardModule } from '@angular/material';
 
 import { AppComponent } from './app.component';
 
@@ -16,7 +16,11 @@ import { AppComponent } from './app.component';
   imports: [
     BrowserModule,
 	BrowserAnimationsModule,
-	MaterialModule
+	MatSidenavModule,
+	MatToolbarModule,
+	MatButtonModule,
+	MatIconModule,
+	MatCardModule
   ],
   bootstrap: [AppComponent]
 })
