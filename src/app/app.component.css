@@ -23,11 +23,11 @@
 	margin-left: 1px;
 	border-radius: 1px;
 	font-size: 18px;
-    padding-left: 8px;
+	padding-left: 8px;
 }
 
-/deep/.app-dark-theme .mat-drawer-backdrop.mat-drawer-shown{
-	background-color: rgba(0, 0, 0, 0.2)
+/deep/.app-dark-theme .mat-drawer-backdrop.mat-drawer-shown {
+	background-color: rgba(0, 0, 0, 0.2);
 }
 
 .close-sidenav {
@@ -70,7 +70,7 @@ mat-icon:hover {
 .main-toolbar {
 	padding-left: 1px;
 	top: 0px;
-	position: sticky; 
-    position: -webkit-sticky;
+	position: sticky;
+	position: -webkit-sticky;
 	z-index: 50;
 }
