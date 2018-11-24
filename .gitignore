@@ -29,6 +29,7 @@
 !.vscode/extensions.json
 
 #firebase
+/.firebase
 firebase.json
 .firebase-debug.txt
 .firebaserc
