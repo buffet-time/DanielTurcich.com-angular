@@ -20,7 +20,7 @@ export class AppComponent {
 
 	nagivateToResume() {
 		window.open(
-			'https://drive.google.com/file/d/1teZN6jD_3ISiQcv69gZajlIgL-71eXnJ/view'
+			'https://drive.google.com/file/d/1UhcfJUs0U3AAuHyZTZbi6bXxEL_QFZR0/view'
 		)
 	}
 
